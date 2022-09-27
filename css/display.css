@@ -37,6 +37,10 @@
     border: none;
     border-radius: 5px;
 }
+a{
+    color: #fff;
+    text-decoration: none;
+}
 
 /* navbar */
 #navbar{
@@ -55,7 +59,7 @@
 
 /* container-background */
 .container-background{
-    /* background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTj-GHA0usze2zdmMcj-sxsu8SP0rS6jmXTTw&usqp=CAU') no-repeat center center/cover;  */
+    background: url('https://cutewallpaper.org/25/anime-wallpaper-for-powerpoint/computers-desktop-clipart-backgrounds-for-powerpoint-templates-ppt-backgrounds.jpeg') no-repeat center center/cover; 
     width: 100%;
     height: 100vh;
 }
@@ -69,6 +73,7 @@
 table{
     margin: 0 auto;
     border-collapse: collapse;
+    color: #fff;
 }
 table tr th{
     border: 1px solid #000;
@@ -79,4 +84,56 @@ table tr td{
     border: 1px solid #000;
     padding: 0.50rem;
     text-align: center;
+}
+/* container-form */
+.container-form{
+    width: 500px;
+    height: 900px;
+    background-color: #333;
+    position: absolute;
+    left: 30%;
+    top:10%;
+    display: none;
+    border-radius: 10px;
+    color: #fff;
+}
+.container-form >h1{
+    text-align: center;
+    color: #fff;
+    padding: 0.80rem;
+}
+.container-form .form{
+    padding: 3rem;
+}
+.container-form .form .form-group{
+    padding: 0.50rem;
+}
+.container-form .form .form-group > input{
+    width: 100%;
+    padding: 0.50rem;
+    border-radius: 7px;
+    border: none;
+}
+input{
+    margin-top: 0.5rem;
+}
+.btn-submit{
+    float: right;
+    margin: 0.5rem;
+    padding: 0.65rem;
+    background-color: rgb(6, 168, 6);
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+.btn-cancel{
+    float: right;
+    margin: 0.5rem;
+    padding: 0.65rem;
+    border: none;
+    background-color: red;
+    color: #fff;
+    border-radius: 10px;
+    margin-top: 1rem;
 }
